@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D3522491F8EBE5E003C8FDC /* GoodReads.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D3522481F8EBE5E003C8FDC /* GoodReads.plist */; };
 		3D6C35B41F8E96D0002B252D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6C35B31F8E96D0002B252D /* AppDelegate.swift */; };
 		3D6C35BB1F8E96D0002B252D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6C35B91F8E96D0002B252D /* Main.storyboard */; };
 		3D6C35BD1F8E96D0002B252D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6C35BC1F8E96D0002B252D /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0239BBE356F645E758D9A715 /* Pods-RxSwiftExamplesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftExamplesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftExamplesTests/Pods-RxSwiftExamplesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D3522481F8EBE5E003C8FDC /* GoodReads.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GoodReads.plist; sourceTree = "<group>"; };
 		3D6C35B01F8E96D0002B252D /* RxSwiftExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6C35B31F8E96D0002B252D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D6C35BA1F8E96D0002B252D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,9 +91,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D3522471F8EBE46003C8FDC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D3522481F8EBE5E003C8FDC /* GoodReads.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		3D6C35A71F8E96D0002B252D = {
 			isa = PBXGroup;
 			children = (
+				3D3522471F8EBE46003C8FDC /* Resources */,
 				3D6C35B21F8E96D0002B252D /* RxSwiftExamples */,
 				3D6C35C91F8E96D0002B252D /* RxSwiftExamplesTests */,
 				3D6C35D41F8E96D0002B252D /* RxSwiftExamplesUITests */,
@@ -299,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D6C35C01F8E96D0002B252D /* LaunchScreen.storyboard in Resources */,
+				3D3522491F8EBE5E003C8FDC /* GoodReads.plist in Resources */,
 				3D6C35BD1F8E96D0002B252D /* Assets.xcassets in Resources */,
 				3D6C35BB1F8E96D0002B252D /* Main.storyboard in Resources */,
 			);
@@ -394,18 +406,32 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftExamples/Pods-RxSwiftExamples-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxReachability/RxReachability.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
 				"${BUILT_PRODUCTS_DIR}/StarscreamSocketIO/StarscreamSocketIO.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxReachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StarscreamSocketIO.framework",

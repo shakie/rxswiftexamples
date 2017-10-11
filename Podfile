@@ -10,6 +10,9 @@ target 'RxSwiftExamples' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'RxDataSources'
+  pod 'RxReachability'
+  pod 'Moya/RxSwift'
+  pod 'RealmSwift'
 
   target 'RxSwiftExamplesTests' do
     inherit! :search_paths
