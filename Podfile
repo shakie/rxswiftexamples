@@ -12,6 +12,7 @@ target 'RxSwiftExamples' do
   pod 'RxDataSources'
   pod 'RxReachability'
   pod 'Moya/RxSwift'
+  pod 'Moya-ModelMapper/RxSwift', '~> 5.0.0'
   pod 'RealmSwift'
 
   target 'RxSwiftExamplesTests' do

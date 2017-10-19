@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3D3522491F8EBE5E003C8FDC /* GoodReads.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D3522481F8EBE5E003C8FDC /* GoodReads.plist */; };
+		3D35224E1F8EE052003C8FDC /* BooksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35224D1F8EE052003C8FDC /* BooksListViewController.swift */; };
+		3D3522501F8EE243003C8FDC /* CompanyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35224F1F8EE243003C8FDC /* CompanyListViewController.swift */; };
 		3D6C35B41F8E96D0002B252D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6C35B31F8E96D0002B252D /* AppDelegate.swift */; };
 		3D6C35BB1F8E96D0002B252D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6C35B91F8E96D0002B252D /* Main.storyboard */; };
 		3D6C35BD1F8E96D0002B252D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6C35BC1F8E96D0002B252D /* Assets.xcassets */; };
 		3D6C35C01F8E96D0002B252D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6C35BE1F8E96D0002B252D /* LaunchScreen.storyboard */; };
 		3D6C35CB1F8E96D0002B252D /* RxSwiftExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6C35CA1F8E96D0002B252D /* RxSwiftExamplesTests.swift */; };
 		3D6C35D61F8E96D0002B252D /* RxSwiftExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6C35D51F8E96D0002B252D /* RxSwiftExamplesUITests.swift */; };
+		3DCAF9741F98D303000CDBC5 /* IexWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAF9731F98D303000CDBC5 /* IexWebService.swift */; };
+		3DCAF9771F98D53B000CDBC5 /* IexService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAF9761F98D53B000CDBC5 /* IexService.swift */; };
+		3DCAF9791F98D5AD000CDBC5 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAF9781F98D5AD000CDBC5 /* Symbol.swift */; };
+		3DCAF97B1F98E08D000CDBC5 /* SymbolSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAF97A1F98E08D000CDBC5 /* SymbolSection.swift */; };
 		5BF846C3CABC016CB412D5D6 /* Pods_RxSwiftExamplesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B577FE15244AFE4BECF4813 /* Pods_RxSwiftExamplesTests.framework */; };
 		B7C060F815B9255BC2603068 /* Pods_RxSwiftExamplesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54431464EF5D3B1616559F5 /* Pods_RxSwiftExamplesUITests.framework */; };
 		DC8DE12EA6936A94032F3A77 /* Pods_RxSwiftExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C789B9F959D756F3C40D7A94 /* Pods_RxSwiftExamples.framework */; };
@@ -39,6 +45,8 @@
 /* Begin PBXFileReference section */
 		0239BBE356F645E758D9A715 /* Pods-RxSwiftExamplesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftExamplesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftExamplesTests/Pods-RxSwiftExamplesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D3522481F8EBE5E003C8FDC /* GoodReads.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GoodReads.plist; sourceTree = "<group>"; };
+		3D35224D1F8EE052003C8FDC /* BooksListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksListViewController.swift; sourceTree = "<group>"; };
+		3D35224F1F8EE243003C8FDC /* CompanyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyListViewController.swift; sourceTree = "<group>"; };
 		3D6C35B01F8E96D0002B252D /* RxSwiftExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6C35B31F8E96D0002B252D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D6C35BA1F8E96D0002B252D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,8 +59,10 @@
 		3D6C35D11F8E96D0002B252D /* RxSwiftExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6C35D51F8E96D0002B252D /* RxSwiftExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftExamplesUITests.swift; sourceTree = "<group>"; };
 		3D6C35D71F8E96D0002B252D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D6C35E51F8E9789002B252D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		3D6C35E61F8E9789002B252D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3DCAF9731F98D303000CDBC5 /* IexWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IexWebService.swift; sourceTree = "<group>"; };
+		3DCAF9761F98D53B000CDBC5 /* IexService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IexService.swift; sourceTree = "<group>"; };
+		3DCAF9781F98D5AD000CDBC5 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+		3DCAF97A1F98E08D000CDBC5 /* SymbolSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolSection.swift; sourceTree = "<group>"; };
 		6B577FE15244AFE4BECF4813 /* Pods_RxSwiftExamplesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftExamplesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D36531E666B3B3F0BD3DF9C /* Pods-RxSwiftExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftExamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftExamples/Pods-RxSwiftExamples.release.xcconfig"; sourceTree = "<group>"; };
 		A54431464EF5D3B1616559F5 /* Pods_RxSwiftExamplesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftExamplesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +107,29 @@
 				3D3522481F8EBE5E003C8FDC /* GoodReads.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		3D35224A1F8EDF0E003C8FDC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAF9761F98D53B000CDBC5 /* IexService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3D35224B1F8EDF0E003C8FDC /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAF9731F98D303000CDBC5 /* IexWebService.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		3D35224C1F8EDF24003C8FDC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		3D6C35A71F8E96D0002B252D = {
@@ -157,6 +190,10 @@
 			isa = PBXGroup;
 			children = (
 				3D6C35E41F8E9756002B252D /* Controllers */,
+				3DCAF9751F98D38A000CDBC5 /* Models */,
+				3D35224A1F8EDF0E003C8FDC /* Services */,
+				3D35224C1F8EDF24003C8FDC /* ViewModels */,
+				3D35224B1F8EDF0E003C8FDC /* WebServices */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -164,10 +201,19 @@
 		3D6C35E41F8E9756002B252D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3D6C35E61F8E9789002B252D /* FirstViewController.swift */,
-				3D6C35E51F8E9789002B252D /* SecondViewController.swift */,
+				3D35224D1F8EE052003C8FDC /* BooksListViewController.swift */,
+				3D35224F1F8EE243003C8FDC /* CompanyListViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3DCAF9751F98D38A000CDBC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAF9781F98D5AD000CDBC5 /* Symbol.swift */,
+				3DCAF97A1F98E08D000CDBC5 /* SymbolSection.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		456EAA2784645D935B2425B7 /* Pods */ = {
@@ -408,7 +454,9 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftExamples/Pods-RxSwiftExamples-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/ModelMapper/Mapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ModelMapper/Moya_ModelMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
@@ -424,7 +472,9 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ModelMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
@@ -512,6 +562,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D6C35B41F8E96D0002B252D /* AppDelegate.swift in Sources */,
+				3DCAF97B1F98E08D000CDBC5 /* SymbolSection.swift in Sources */,
+				3D35224E1F8EE052003C8FDC /* BooksListViewController.swift in Sources */,
+				3DCAF9771F98D53B000CDBC5 /* IexService.swift in Sources */,
+				3D3522501F8EE243003C8FDC /* CompanyListViewController.swift in Sources */,
+				3DCAF9741F98D303000CDBC5 /* IexWebService.swift in Sources */,
+				3DCAF9791F98D5AD000CDBC5 /* Symbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,7 +741,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shaunrowe.RxSwiftExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -702,7 +758,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shaunrowe.RxSwiftExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
