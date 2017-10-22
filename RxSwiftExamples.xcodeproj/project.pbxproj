@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0D34B61F9CA56900D3D3CF /* StatusPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0D34B51F9CA56900D3D3CF /* StatusPublisher.swift */; };
+		3D0D34B81F9CA58500D3D3CF /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0D34B71F9CA58500D3D3CF /* Status.swift */; };
+		3D0D34BA1F9CC17900D3D3CF /* ViewModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0D34B91F9CC17900D3D3CF /* ViewModelViewController.swift */; };
+		3D0D34BC1F9D593B00D3D3CF /* TopsQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0D34BB1F9D593B00D3D3CF /* TopsQuote.swift */; };
 		3D3522491F8EBE5E003C8FDC /* GoodReads.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D3522481F8EBE5E003C8FDC /* GoodReads.plist */; };
 		3D35224E1F8EE052003C8FDC /* BooksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35224D1F8EE052003C8FDC /* BooksListViewController.swift */; };
 		3D3522501F8EE243003C8FDC /* CompanyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35224F1F8EE243003C8FDC /* CompanyListViewController.swift */; };
+		3D52CA7B1F9A47AC00B3DC18 /* CompanyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D52CA7A1F9A47AC00B3DC18 /* CompanyListViewModel.swift */; };
+		3D61E2381F9A0D12008A7E9B /* ReachabilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D61E2371F9A0D12008A7E9B /* ReachabilityService.swift */; };
 		3D6C35B41F8E96D0002B252D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6C35B31F8E96D0002B252D /* AppDelegate.swift */; };
 		3D6C35BB1F8E96D0002B252D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6C35B91F8E96D0002B252D /* Main.storyboard */; };
 		3D6C35BD1F8E96D0002B252D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6C35BC1F8E96D0002B252D /* Assets.xcassets */; };
 		3D6C35C01F8E96D0002B252D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6C35BE1F8E96D0002B252D /* LaunchScreen.storyboard */; };
 		3D6C35CB1F8E96D0002B252D /* RxSwiftExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6C35CA1F8E96D0002B252D /* RxSwiftExamplesTests.swift */; };
 		3D6C35D61F8E96D0002B252D /* RxSwiftExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6C35D51F8E96D0002B252D /* RxSwiftExamplesUITests.swift */; };
+		3D6DEFAE1F9916920069DCE3 /* CompanyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DEFAD1F9916920069DCE3 /* CompanyViewModel.swift */; };
+		3D6DEFB01F9917870069DCE3 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DEFAF1F9917870069DCE3 /* Company.swift */; };
+		3D6DEFB21F9918B80069DCE3 /* CompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DEFB11F9918B80069DCE3 /* CompanyViewController.swift */; };
+		3DAC2F4F1F9BDB8D0022396C /* IexWebSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC2F4E1F9BDB8D0022396C /* IexWebSocketService.swift */; };
+		3DAC2F511F9C257D0022396C /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC2F501F9C257D0022396C /* Logo.swift */; };
+		3DAC2F531F9C26E60022396C /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC2F521F9C26E60022396C /* Quote.swift */; };
 		3DCAF9741F98D303000CDBC5 /* IexWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAF9731F98D303000CDBC5 /* IexWebService.swift */; };
 		3DCAF9771F98D53B000CDBC5 /* IexService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAF9761F98D53B000CDBC5 /* IexService.swift */; };
 		3DCAF9791F98D5AD000CDBC5 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAF9781F98D5AD000CDBC5 /* Symbol.swift */; };
@@ -44,9 +56,15 @@
 
 /* Begin PBXFileReference section */
 		0239BBE356F645E758D9A715 /* Pods-RxSwiftExamplesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftExamplesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftExamplesTests/Pods-RxSwiftExamplesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D0D34B51F9CA56900D3D3CF /* StatusPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusPublisher.swift; sourceTree = "<group>"; };
+		3D0D34B71F9CA58500D3D3CF /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		3D0D34B91F9CC17900D3D3CF /* ViewModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelViewController.swift; sourceTree = "<group>"; };
+		3D0D34BB1F9D593B00D3D3CF /* TopsQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopsQuote.swift; sourceTree = "<group>"; };
 		3D3522481F8EBE5E003C8FDC /* GoodReads.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GoodReads.plist; sourceTree = "<group>"; };
 		3D35224D1F8EE052003C8FDC /* BooksListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksListViewController.swift; sourceTree = "<group>"; };
 		3D35224F1F8EE243003C8FDC /* CompanyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyListViewController.swift; sourceTree = "<group>"; };
+		3D52CA7A1F9A47AC00B3DC18 /* CompanyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyListViewModel.swift; sourceTree = "<group>"; };
+		3D61E2371F9A0D12008A7E9B /* ReachabilityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityService.swift; sourceTree = "<group>"; };
 		3D6C35B01F8E96D0002B252D /* RxSwiftExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6C35B31F8E96D0002B252D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D6C35BA1F8E96D0002B252D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,6 +77,12 @@
 		3D6C35D11F8E96D0002B252D /* RxSwiftExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6C35D51F8E96D0002B252D /* RxSwiftExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftExamplesUITests.swift; sourceTree = "<group>"; };
 		3D6C35D71F8E96D0002B252D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6DEFAD1F9916920069DCE3 /* CompanyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyViewModel.swift; sourceTree = "<group>"; };
+		3D6DEFAF1F9917870069DCE3 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		3D6DEFB11F9918B80069DCE3 /* CompanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyViewController.swift; sourceTree = "<group>"; };
+		3DAC2F4E1F9BDB8D0022396C /* IexWebSocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IexWebSocketService.swift; sourceTree = "<group>"; };
+		3DAC2F501F9C257D0022396C /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+		3DAC2F521F9C26E60022396C /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		3DCAF9731F98D303000CDBC5 /* IexWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IexWebService.swift; sourceTree = "<group>"; };
 		3DCAF9761F98D53B000CDBC5 /* IexService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IexService.swift; sourceTree = "<group>"; };
 		3DCAF9781F98D5AD000CDBC5 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
@@ -113,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				3DCAF9761F98D53B000CDBC5 /* IexService.swift */,
+				3DAC2F4E1F9BDB8D0022396C /* IexWebSocketService.swift */,
+				3D61E2371F9A0D12008A7E9B /* ReachabilityService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -128,6 +154,9 @@
 		3D35224C1F8EDF24003C8FDC /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				3D6DEFAD1F9916920069DCE3 /* CompanyViewModel.swift */,
+				3D52CA7A1F9A47AC00B3DC18 /* CompanyListViewModel.swift */,
+				3D0D34B51F9CA56900D3D3CF /* StatusPublisher.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -203,6 +232,8 @@
 			children = (
 				3D35224D1F8EE052003C8FDC /* BooksListViewController.swift */,
 				3D35224F1F8EE243003C8FDC /* CompanyListViewController.swift */,
+				3D6DEFB11F9918B80069DCE3 /* CompanyViewController.swift */,
+				3D0D34B91F9CC17900D3D3CF /* ViewModelViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -212,6 +243,11 @@
 			children = (
 				3DCAF9781F98D5AD000CDBC5 /* Symbol.swift */,
 				3DCAF97A1F98E08D000CDBC5 /* SymbolSection.swift */,
+				3D6DEFAF1F9917870069DCE3 /* Company.swift */,
+				3DAC2F501F9C257D0022396C /* Logo.swift */,
+				3DAC2F521F9C26E60022396C /* Quote.swift */,
+				3D0D34B71F9CA58500D3D3CF /* Status.swift */,
+				3D0D34BB1F9D593B00D3D3CF /* TopsQuote.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -454,6 +490,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftExamples/Pods-RxSwiftExamples-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/ModelMapper/Mapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya-ModelMapper/Moya_ModelMapper.framework",
@@ -465,6 +502,7 @@
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxReachability/RxReachability.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
 				"${BUILT_PRODUCTS_DIR}/StarscreamSocketIO/StarscreamSocketIO.framework",
 			);
@@ -472,6 +510,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ModelMapper.framework",
@@ -483,6 +522,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxReachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StarscreamSocketIO.framework",
 			);
@@ -561,12 +601,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0D34BC1F9D593B00D3D3CF /* TopsQuote.swift in Sources */,
 				3D6C35B41F8E96D0002B252D /* AppDelegate.swift in Sources */,
 				3DCAF97B1F98E08D000CDBC5 /* SymbolSection.swift in Sources */,
+				3D0D34B61F9CA56900D3D3CF /* StatusPublisher.swift in Sources */,
+				3D0D34B81F9CA58500D3D3CF /* Status.swift in Sources */,
+				3D6DEFB01F9917870069DCE3 /* Company.swift in Sources */,
 				3D35224E1F8EE052003C8FDC /* BooksListViewController.swift in Sources */,
+				3D52CA7B1F9A47AC00B3DC18 /* CompanyListViewModel.swift in Sources */,
+				3D6DEFB21F9918B80069DCE3 /* CompanyViewController.swift in Sources */,
 				3DCAF9771F98D53B000CDBC5 /* IexService.swift in Sources */,
+				3DAC2F4F1F9BDB8D0022396C /* IexWebSocketService.swift in Sources */,
+				3DAC2F511F9C257D0022396C /* Logo.swift in Sources */,
+				3D6DEFAE1F9916920069DCE3 /* CompanyViewModel.swift in Sources */,
 				3D3522501F8EE243003C8FDC /* CompanyListViewController.swift in Sources */,
 				3DCAF9741F98D303000CDBC5 /* IexWebService.swift in Sources */,
+				3D61E2381F9A0D12008A7E9B /* ReachabilityService.swift in Sources */,
+				3D0D34BA1F9CC17900D3D3CF /* ViewModelViewController.swift in Sources */,
+				3DAC2F531F9C26E60022396C /* Quote.swift in Sources */,
 				3DCAF9791F98D5AD000CDBC5 /* Symbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

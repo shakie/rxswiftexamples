@@ -11,25 +11,34 @@ import Moya
 
 enum IexWebService {
     case symbols
+    case company(symbol: String)
+    case logo(symbol: String)
+    case quote(symbol: String)
 }
 
 extension IexWebService: TargetType {
-    var baseURL: URL { return URL(string: "https://api.iextrading.com/1.0")! }
+    var baseURL: URL { return URL(string: IexService.BASE_URL)! }
     var path: String {
         switch self {
         case .symbols:
             return "/ref-data/symbols"
+        case .company(let symbol):
+            return "/stock/\(symbol)/company"
+        case .logo(let symbol):
+            return "/stock/\(symbol)/logo"
+        case.quote(let symbol):
+            return "/stock/\(symbol)/quote"
         }
     }
     var method: Moya.Method {
         switch self {
-        case .symbols:
+        case .symbols, .company, .logo, .quote:
             return .get
         }
     }
     var task: Task {
         switch self {
-        case .symbols:
+        case .symbols, .company, .logo, .quote:
             return .requestPlain
         }
     }

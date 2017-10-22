@@ -14,6 +14,8 @@ target 'RxSwiftExamples' do
   pod 'Moya/RxSwift'
   pod 'Moya-ModelMapper/RxSwift', '~> 5.0.0'
   pod 'RealmSwift'
+  pod 'SVProgressHUD'
+  pod 'Kingfisher', '3.13.1'
 
   target 'RxSwiftExamplesTests' do
     inherit! :search_paths
