@@ -44,12 +44,14 @@ struct CompanyViewModel: StatusPublisher {
     func update(_ symbol: String) {
         apiReachable.observeOn(MainScheduler.instance)
             .subscribe(onNext: { reachable in
-                self.publishStatus(Status(true, message: "Loading company"))
-                self.apiService.getCompany(symbol)
-                    .subscribe(onNext: { company in
-                        self.populate(company)
-                    })
-                    .disposed(by: self.disposables)
+                if reachable {
+                    self.publishStatus(Status(true, message: "Loading company"))
+                    self.apiService.getCompany(symbol)
+                        .subscribe(onNext: { company in
+                            self.populate(company)
+                        })
+                        .disposed(by: self.disposables)
+                }
             }, onError: { error in
                 if error.localizedDescription.contains("offline") {
                     self.apiReachable.onNext(false)
